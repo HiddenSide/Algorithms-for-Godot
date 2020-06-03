@@ -1,8 +1,10 @@
+#RandomMap.gd - Esteban Gomez
+
 extends Node2D
 onready var tilemap = $TileMap
 var set_desert = {"sand" : 85, "dirt" : 10, "grass" : 5}
 var set_plain = {"sand" : 0, "dirt" : 10, "grass" : 90}
-	
+
 func _ready():
 	randomize()
 	make_chunk(10,10, set_desert)
