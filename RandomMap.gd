@@ -8,8 +8,6 @@ var set_plain = {"sand" : 0, "dirt" : 10, "grass" : 90}
 func _ready():
 	randomize()
 	make_chunk(10,10, set_desert)
-	print(tilemap.tile_set.tile_get_light_occluder ( 1 ) )
-
 
 func make_chunk(width:int, height:int, set:Dictionary) -> void:
 	for i in width:
