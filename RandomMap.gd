@@ -9,9 +9,9 @@ func _ready():
 	randomize()
 	make_chunk(10,10, set_desert)
 
-func make_chunk(width:int, height:int, set:Dictionary) -> void:
-	for i in width:
-		for j in height:
+func make_chunk(_width:int, _height:int, set:Dictionary) -> void:
+	for i in _width:
+		for j in _height:
 			var tile_name:String = set.keys()[get_random_weigths(set)]
 			tilemap.set_cell(i, j, tilemap.tile_set.find_tile_by_name(tile_name))	
 
