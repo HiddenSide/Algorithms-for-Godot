@@ -1,2 +1,3 @@
 https://gameprogrammingpatterns.com/contents.html
 https://mattdesl.svbtle.com/drawing-lines-is-hard
+https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms
